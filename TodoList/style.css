@@ -1,10 +1,20 @@
+:root {
+  --primary-color: #942517;
+  --secondary-color: #ec5757;
+  --hover-color: #a87878;
+  --background-color: #e4e8eba0;
+  --border-color: #c9412c;
+  --font-family: "Roboto", sans-serif;
+  --font-family-heading: "Galada", cursive;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-size: 2vw;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   background-image: url("https://images.unsplash.com/photo-1526280760714-f9e8b26f318f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
@@ -14,89 +24,34 @@ body {
   min-height: 100vh;
 }
 
-.todo-list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #e7a0a0;
-}
-
-.todo-text {
-  flex-grow: 1;
-}
-
-.todo-text:hover {
-  color: #942517;
-  text-decoration: underline;
-}
-
-.todo-text.completed {
-  text-decoration: line-through;
-}
-
-.btn-danger {
-  background-color: #ec5757;
-  color: #ffffff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.btn-danger:hover {
-  background-color: darkred;
-}
-
-#clearListBtn {
-  border: 1px solid #c4bbbb;
-  color: black;
-  cursor: pointer;
-}
-
-#clearListBtn:hover {
-  background-color: #a87878;
-}
-
-#submitBtn {
-  border: 1px solid #c4bbbb;
-  color: black;
-  cursor: pointer;
-}
-
-#submitBtn:hover {
-  background-color: #a87878;
+main {
+  max-width: 500px;
+  margin: 100px auto;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1 {
   text-align: center;
-  color: #942517;
-  font-family: "Galada", cursive;
+  color: var(--primary-color);
+  font-family: var(--font-family-heading);
 }
 
-main {
-  max-width: 500px;
-  margin: 100px auto;
-  border: 1px solid #c9412c;
-  padding: 20px;
-  background-color: #e4e8eba0;
-  border-radius: 10px;
-  width: 100%;
-}
-
+/* Form Styles */
 form {
   display: flex;
-  gap: 10px;
+  gap: 1vw;
+  margin-bottom: 2vh;
   justify-content: center;
 }
 
 input {
   flex: 1;
-}
-
-form {
-  display: flex;
-  gap: 1vw;
-  margin-bottom: 2vh;
 }
 
 #todoInput {
@@ -125,13 +80,68 @@ button:hover {
   opacity: 0.9;
 }
 
+/* Todo List Styles */
 ul {
   padding-left: 0;
   list-style-type: none;
 }
 
+.todo-list-item {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e7a0a0;
+}
+
+.todo-text {
+  font-size: 18px;
+  flex-grow: 1;
+  max-width: 300px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.todo-text:hover {
+  color: var(--primary-color);
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+}
+
+/* Button Styles */
+.btn-danger {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: darkred;
+}
+
+#clearListBtn,
+#submitBtn {
+  border: 1px solid #c4bbbb;
+  color: black;
+  cursor: pointer;
+}
+
+#clearListBtn:hover,
+#submitBtn:hover {
+  background-color: var(--hover-color);
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 600px) {
+  main {
+    max-width: 100%;
+  }
+
   form {
     flex-direction: column;
     gap: 2vh;
@@ -143,5 +153,6 @@ ul {
 
   .todo-text {
     font-size: 0.9rem;
+    max-width: 150px;
   }
 }
