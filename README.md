@@ -14,7 +14,8 @@ A simple to-do list application that allows users to add, remove, and mark tasks
 - Saves tasks in local storage
 
   *Screenshot of the To-Do List project is provided below.*
-![todo-list](https://github.com/user-attachments/assets/42f972fc-7ced-4481-99b3-37e85701d492)
+![todo-list](https://github.com/user-attachments/assets/6924b6df-928c-4320-adb8-8515cf5053a7)
+
 
 
 ### 2. Drum Kit
