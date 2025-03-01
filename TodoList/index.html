@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practice JavaScript</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Galada&family=Mukta:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Todo app</title>
   </head>
+
   <body>
-    <header>
-      <h1>Learn JavaScript</h1>
-      <div class="project-name">Simple TODO-LIST</div>
-    </header>
-    <div class="simple-todo">
-      <div class="tasks-wrapper">
-        <h2>TODO-LIST</h2>
-        <ul id="todo-list">
-          <li>Watch DOM Course</li>
-          <li>Read Eloquent JS-DOM</li>
-          <li>Complete FCC Exercises</li>
-        </ul>
-      </div>
-      <form id="todo-form">
+    <main>
+      <h1>Todo List</h1>
+      <form id="todoForm">
         <input
-          id="todo-input"
           type="text"
-          placeholder="type your task here..."
+          id="todoInput"
+          placeholder="Do homework..."
+          aria-label="task to do"
         />
-        <button type="submit">Add task</button>
+        <button type="submit" id="submitBtn">Add</button>
+        <button type="button" id="clearListBtn">Clear list</button>
       </form>
-    </div>
+
+      <ul id="list">
+        <!-- <li class="todo-list-item">
+          <span class="todo-text">Do homework</span>
+          <button>X</button>
+        </li> -->
+      </ul>
+    </main>
+
     <script src="./script.js"></script>
   </body>
 </html>
