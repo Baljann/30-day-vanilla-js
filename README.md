@@ -13,8 +13,9 @@ A simple to-do list application that allows users to add, remove, and mark tasks
 - Remove tasks
 - Saves tasks in local storage
 
-  *Screenshot of the To-Do List project is provided below.*
-![todo-list](https://github.com/user-attachments/assets/42f972fc-7ced-4481-99b3-37e85701d492)
+  *Here is the To-Do List project result.*
+![todo-list](https://github.com/user-attachments/assets/6924b6df-928c-4320-adb8-8515cf5053a7)
+
 
 
 ### 2. Drum Kit
@@ -25,7 +26,7 @@ An interactive drum kit that allows users to play drum sounds by clicking button
 - Keyboard event listeners for real-time interaction
 - Visual feedback when a drum key is pressed
 
-*Screenshot of the Drum Kit project is provided below.*
+*Here is the Drum Kit project result.*
 ![drum-kit](https://github.com/user-attachments/assets/0f95db82-664d-4529-956b-80d424be946e)
 
 ## Installation & Usage
