@@ -29,6 +29,21 @@ An interactive drum kit that allows users to play drum sounds by clicking button
 *Here is the Drum Kit project result.*
 ![drum-kit](https://github.com/user-attachments/assets/0f95db82-664d-4529-956b-80d424be946e)
 
+
+
+### 3. JS and CSS Clock
+This project is a simple clock created using JavaScript and CSS. It displays the current time with hour, minute, and second hands, similar to an analog clock.
+
+#### Features:
+- Displays the current time with hour, minute, and second hands.
+- Uses CSS for styling the clock.
+- JavaScript updates the clock hands in real-time.
+
+*Here is the JS and CSS Clock project result.*
+![JS and CSS Clock](https://github.com/user-attachments/assets/13726ad5-a776-4675-81a2-c27657b587d4)
+
+
+
 ## Installation & Usage
 1. Clone the repository:
    ```sh
