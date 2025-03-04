@@ -44,6 +44,18 @@ This project is a simple clock created using JavaScript and CSS. It displays the
 
 
 
+### 4. FAQ for Developers
+The FAQ for Developers project is designed to provide a user-friendly interface for frequently asked questions related to development topics. It features a clean layout, responsive design, and interactive elements that enhance the user experience.
+
+#### Features:
+- The FAQ section allows users to click on questions to reveal answers.
+- The design is responsive, ensuring a good experience on both desktop and mobile devices.
+
+*Here is the FAQ for Developers project result.*
+![FAQForDevelopers](https://github.com/user-attachments/assets/5a06f04d-12ac-4fb9-9b9d-9153f31aebdb)
+
+
+
 ## Installation & Usage
 1. Clone the repository:
    ```sh
