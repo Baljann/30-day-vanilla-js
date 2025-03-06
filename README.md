@@ -56,6 +56,20 @@ The FAQ for Developers project is designed to provide a user-friendly interface 
 
 
 
+### 5.CSS Variables and JavaScript
+This project demonstrates how to manipulate CSS variables using JavaScript.
+
+### Features
+- Dynamically update CSS variables using JavaScript
+- Real-time updates on input change and mouse move events
+- Easy to extend with additional controls and CSS variables
+
+*Here is the CSS Variables and JavaScript project result.*
+![CSS Variables and JavaScript](https://github.com/user-attachments/assets/79d248b3-dfe5-40f0-a92c-b68344b3fcc7)
+
+
+
+
 ## Installation & Usage
 1. Clone the repository:
    ```sh
