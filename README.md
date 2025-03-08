@@ -80,8 +80,8 @@ This project is a JavaScript exercise that demonstrates various array methods su
 A simple timer application that allows users to start, pause, and reset a counter.
 
 #### Features:
-- Start Timer: Begins counting up from 0, updating every second.
-- Pause Timer: Pauses the current count, allowing it to be resumed later.
+- **Start Timer**: Begins counting up from 0, updating every second.
+- **Pause Timer**: Pauses the current count, allowing it to be resumed later.
 - **Reset Timer**: Resets the counter back to 0 and stops the timer.
 
 *Here is the Timer project result.*
