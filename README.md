@@ -69,6 +69,13 @@ This project demonstrates how to manipulate CSS variables using JavaScript.
 
 
 
+### 6.Array Cardio Day 1
+This project is a JavaScript exercise that demonstrates various array methods such as `filter`, `map`, `sort`, and `reduce`. The exercises are designed to help you practice and understand how to manipulate arrays in JavaScript.
+
+*Here is the console view of the execcise.*
+![arrayCardio](https://github.com/user-attachments/assets/97a71b0c-41a4-4b6e-9ea3-8bc699534bcc)
+
+
 
 ## Installation & Usage
 1. Clone the repository:
