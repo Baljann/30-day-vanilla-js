@@ -76,6 +76,18 @@ This project is a JavaScript exercise that demonstrates various array methods su
 ![arrayCardio](https://github.com/user-attachments/assets/97a71b0c-41a4-4b6e-9ea3-8bc699534bcc)
 
 
+### 7. Timer
+A simple timer application that allows users to start, pause, and reset a counter.
+
+#### Features:
+- **Start Timer**: Begins counting up from 0, updating every second.
+- **Pause Timer**: Pauses the current count, allowing it to be resumed later.
+- **Reset Timer**: Resets the counter back to 0 and stops the timer.
+
+*Here is the Timer project result.*
+![SimpleTimer](https://github.com/user-attachments/assets/a0ad83ed-18bb-4432-85a2-f1a6886b09c2)
+
+
 
 ## Installation & Usage
 1. Clone the repository:
