@@ -13,7 +13,7 @@ A simple to-do list application that allows users to add, remove, and mark tasks
 - Remove tasks
 - Saves tasks in local storage
 
-  *Here is the To-Do List project result.*
+*Here is the To-Do List project result.*
 ![todo-list](https://github.com/user-attachments/assets/6924b6df-928c-4320-adb8-8515cf5053a7)
 
 
@@ -71,9 +71,9 @@ This project demonstrates how to manipulate CSS variables using JavaScript.
 
 ### 6.Array Cardio Day 1
 This project is a JavaScript exercise that demonstrates various array methods such as `filter`, `map`, `sort`, and `reduce`. The exercises are designed to help you practice and understand how to manipulate arrays in JavaScript.
-
 *Here is the console view of the execcise.*
 ![arrayCardio](https://github.com/user-attachments/assets/97a71b0c-41a4-4b6e-9ea3-8bc699534bcc)
+
 
 
 ### 7. Timer
@@ -87,6 +87,18 @@ A simple timer application that allows users to start, pause, and reset a counte
 *Here is the Timer project result.*
 ![SimpleTimer](https://github.com/user-attachments/assets/a0ad83ed-18bb-4432-85a2-f1a6886b09c2)
 
+
+
+### 7. Flex Panel Gallery
+The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an interactive gallery with expanding panels. Each panel expands when clicked, revealing additional content.
+
+## Features
+- **Interactive Panels**: Click on a panel to expand it and reveal more content.
+- **Smooth Transitions**: Panels expand and contract with smooth transitions.
+- **Responsive Design**: The layout adjusts to different screen sizes.
+
+*Here is the Flex Panel Gallery project result.*
+![flexPanelGallery](https://github.com/user-attachments/assets/e396cc45-85ac-4bbe-bc13-982dcd8a2413)
 
 
 ## Installation & Usage
