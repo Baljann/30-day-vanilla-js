@@ -89,7 +89,7 @@ A simple timer application that allows users to start, pause, and reset a counte
 
 
 
-### 7. Flex Panel Gallery
+### 8. Flex Panel Gallery
 The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an interactive gallery with expanding panels. Each panel expands when clicked, revealing additional content.
 
 ## Features
@@ -99,6 +99,32 @@ The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an 
 
 *Here is the Flex Panel Gallery project result.*
 ![flexPanelGallery](https://github.com/user-attachments/assets/e396cc45-85ac-4bbe-bc13-982dcd8a2413)
+
+
+
+### 9. Currency Rate
+The Currency Rate project fetches and displays the current exchange rates for USD and EUR against RUB. It uses the Fetch API to get data from an external API and updates the DOM with the latest rates.
+
+#### Features:
+- **Fetch API**: Retrieves exchange rates from an external API.
+- **Real-Time Updates**: Displays the latest exchange rates for USD and EUR.
+- **Responsive Design**: Ensures a good user experience on both desktop and mobile devices.
+
+*Here is the Currency Rate project result.*
+![exchangeRates](https://github.com/user-attachments/assets/582d102b-e9d5-43f3-9c35-82d9fe6eb561)
+
+
+
+### 10. Type Ahead
+The Type Ahead project is an autocomplete search tool that provides suggestions as you type. It uses JavaScript to filter and display matching results from a dataset.
+
+#### Features:
+- **Autocomplete Search**: Provides real-time suggestions as you type.
+- **Dynamic Filtering**: Filters results based on user input.
+- **Responsive Design**: Ensures a good user experience on both desktop and mobile devices.
+
+*Here is the Type Ahead project result.*
+![typeAhead](https://github.com/user-attachments/assets/dcd46bd5-529d-434d-a723-b1103cd917dc)
 
 
 ## Installation & Usage
