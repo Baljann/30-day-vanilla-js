@@ -71,7 +71,7 @@ This project demonstrates how to manipulate CSS variables using JavaScript.
 
 ### 6.Array Cardio Day 1
 This project is a JavaScript exercise that demonstrates various array methods such as `filter`, `map`, `sort`, and `reduce`. The exercises are designed to help you practice and understand how to manipulate arrays in JavaScript.
-*Here is the console view of the execcise.*
+*Here is the console view of the exercise.*
 ![arrayCardio](https://github.com/user-attachments/assets/97a71b0c-41a4-4b6e-9ea3-8bc699534bcc)
 
 
@@ -125,6 +125,14 @@ The Type Ahead project is an autocomplete search tool that provides suggestions 
 
 *Here is the Type Ahead project result.*
 ![typeAhead](https://github.com/user-attachments/assets/dcd46bd5-529d-434d-a723-b1103cd917dc)
+
+
+
+### 11. Array Cardio Day 2
+The Array Cardio Day 2 project demonstrates the use of various array methods in JavaScript, such as `some()`, `every()`, `find()`, and `findIndex()`. These methods are used to perform different operations on arrays of objects.
+
+*Here is the console view of the exercise.*
+![arrayCardio2](https://github.com/user-attachments/assets/5f96d693-3287-46db-b4f6-60774d44aea1)
 
 
 ## Installation & Usage
