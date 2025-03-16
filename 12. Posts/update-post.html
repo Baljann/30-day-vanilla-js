@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update post</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Update Post</h1>
+    <form id="update-form">
+      <label for="title">Title:</label><br />
+      <input
+        type="text"
+        id="title"
+        name="title"
+        class="post-title"
+      /><br /><br />
+      <label for="body">Body:</label><br />
+      <textarea id="body" name="body"></textarea><br /><br />
+      <button type="submit" class="button button--success">Update</button>
+      <button id="back-to-home" class="button button--danger">
+        Back to Home
+      </button>
+    </form>
+    <div id="success-message" style="display: none"></div>
+    <div id="error-message" style="display: none"></div>
+    <script src="./update-post.js"></script>
+  </body>
+</html>

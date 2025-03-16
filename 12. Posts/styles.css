@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(202, 57%,15%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#posts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.post {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 8px hsla(195, 89%, 22%, 0.5);
+  border-radius: 8px;
+  margin:  20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(202, 57%,15%);
+  margin: 0 0 10px;
+}
+
+.post-body {
+  color: hsl(201, 23%, 34%)
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button--success {
+  background-color: hsl(220, 63%, 58%);
+}
+
+.button--success:hover {
+  background-color: hsl(220, 86%, 70%);
+}
+
+.button--danger {
+  color: hsla(240, 78%, 28%, 0.812);
+  background-color: transparent;
+}
+
+.button--danger:hover {
+  background-color: hsla(355, 30%, 78%, 0.957);
+}
+
+
+
+/* update-post.html */
+#update-form {
+  width: 80%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px hsla(195, 89%, 22%, 0.5);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: hsl(0, 0%, 33%);
+}
+
+input[type="text"],
+textarea {
+  width: calc(100% - 12px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid hsl(0, 0%, 87%);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#success-message,
+#error-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  z-index: 1000;
+  text-align: center;
+  max-width: 80%;
+}
+
+#success-message {
+  background-color: #e6f7e6;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+
+#error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
