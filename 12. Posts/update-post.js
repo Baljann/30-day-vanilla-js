@@ -53,7 +53,7 @@ async function updatePostData(postId, post) {
     const response = await fetch(
       `https://jsonplaceholder.typicode.com/posts/${postId}`,
       {
-        method: "PUT", // Or 'PATCH'
+        method: "PUT",
         headers: {
           "Content-Type": "application/json",
         },
@@ -102,3 +102,7 @@ function showError(message) {
 document.getElementById("back-to-home").addEventListener("click", () => {
   window.location.href = "./index.html";
 });
+
+
+
+/*ERROR: The updatePostData function is showing success message, but not updating the post on the main page.*/

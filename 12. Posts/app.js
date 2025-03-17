@@ -24,6 +24,8 @@ function getPosts() {
   fetch(URL)
     .then((response) => response.json())
     .then((posts) => {
+      const postsContainer = document.getElementById("posts-container");
+      postsContainer.innerHTML = ""; // Clear existing posts
       posts.forEach((post) => {
         const liItem = document.createElement("li");
         liItem.classList.add("post");
@@ -58,7 +60,22 @@ function getPosts() {
     });
 }
 
-function getPostById() {}
+function getPostById(postId) {
+  fetch(`${URL}/${postId}`)
+    .then((response) => response.json())
+    .then((post) => {
+      console.log(post);
+      // add code here to display the post details on the page
+      const postContainer = document.getElementById("post-container");
+      postContainer.innerHTML = `
+        <h2>${post.title}</h2>
+        <p>${post.body}</p>
+      `;
+    })
+    .catch((error) => {
+      console.error("Error fetching post:", error);
+    });
+}
 
 function createPost() {
   // Get the form data
@@ -69,10 +86,33 @@ function createPost() {
   // Clear the form
 }
 
-function updatePost() {}
+function updatePost(postId, updateData) {
+  fetch(`${URL}/${postId}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(updateData),
+  }).then(() => {
+    getPosts(); // Refresh the posts after update
+  });
+}
+
 
 function deletePost(postId) {
   fetch(`${URL}/${postId}`, {
     method: "DELETE",
+  })
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(() => {
+    getPosts(); // Refresh the posts after deletion
+  })
+  .catch((error) => {
+    console.error('Error deleting post:', error);
   });
 }
