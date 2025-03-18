@@ -81,17 +81,8 @@ function getPostById(postId) {
 }
 
 document.getElementById("create-post-btn").addEventListener("click", () => {
-  window.location.href = "./create-post.html"; // Redirect to the create post page
+  window.location.href = "./create-post.html";
 });
-
-function createPost() {
-  // Get the form data
-  // Validate the form data
-  // If form data is not valid, show error messages on the screen (do NOT use alert!)
-  // If form data is valid, make an API request to create the post (POST request)
-  // Once succesccful response is recieved, show a success message on the screen
-  // Clear the form
-}
 
 function updatePost(postId, updateData) {
   fetch(`${URL}/${postId}`, {

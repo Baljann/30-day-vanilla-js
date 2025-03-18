@@ -21,7 +21,7 @@ body {
 
 h1 {
   text-align: center;
-  color: hsl(202, 57%,15%);
+  color: hsl(202, 57%, 15%);
 }
 
 ul {
@@ -38,7 +38,7 @@ ul {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 4px 8px hsla(195, 89%, 22%, 0.5);
   border-radius: 8px;
-  margin:  20px;
+  margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -47,12 +47,12 @@ ul {
 .post-title {
   font-size: 20px;
   font-weight: 700;
-  color: hsl(202, 57%,15%);
+  color: hsl(202, 57%, 15%);
   margin: 0 0 10px;
 }
 
 .post-body {
-  color: hsl(201, 23%, 34%)
+  color: hsl(201, 23%, 34%);
   margin: 0;
   font-size: 16px;
   font-weight: 400;
@@ -96,13 +96,26 @@ ul {
   background-color: hsla(355, 30%, 78%, 0.957);
 }
 
-.button--primary { /*change styles later*/
-background-color: #721c24;
+.button--primary {
+  /*change styles later*/
+  background-color: #f3eee9;
+  border: 1px solid hsla(240, 78%, 28%, 0.812);
+  color: hsla(240, 78%, 28%, 0.812);
 }
 
+.button--primary:hover {
+  background-color: hsl(220, 86%, 70%);
+}
 
 /* update-post.html */
-#update-form, #create-form {
+label {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#update-form,
+#create-post-form {
   width: 80%;
   margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
@@ -160,6 +173,4 @@ textarea {
   border: 1px solid #f5c6cb;
 }
 
-
 /*create-post.html*/
-
