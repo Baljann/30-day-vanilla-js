@@ -1,0 +1,1 @@
+document.getElementById('create-post-form').addEventListener('submit', (event) => {

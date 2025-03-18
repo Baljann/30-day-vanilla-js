@@ -25,13 +25,17 @@ function getPosts() {
     .then((response) => response.json())
     .then((posts) => {
       const postsContainer = document.getElementById("posts-container");
-      postsContainer.innerHTML = ""; // Clear existing posts
+      postsContainer.innerHTML = "";
+
       posts.forEach((post) => {
         const liItem = document.createElement("li");
         liItem.classList.add("post");
+        liItem.id = `post-${post.id}`;
+
         const postTitle = document.createElement("h2");
         postTitle.classList.add("post-title");
         postTitle.textContent = post.title;
+
         const pItem = document.createElement("p");
         pItem.classList.add("post-body");
         pItem.textContent = post.body;
@@ -65,7 +69,6 @@ function getPostById(postId) {
     .then((response) => response.json())
     .then((post) => {
       console.log(post);
-      // add code here to display the post details on the page
       const postContainer = document.getElementById("post-container");
       postContainer.innerHTML = `
         <h2>${post.title}</h2>
@@ -76,6 +79,10 @@ function getPostById(postId) {
       console.error("Error fetching post:", error);
     });
 }
+
+document.getElementById("create-post-btn").addEventListener("click", () => {
+  window.location.href = "./create-post.html"; // Redirect to the create post page
+});
 
 function createPost() {
   // Get the form data
@@ -94,25 +101,27 @@ function updatePost(postId, updateData) {
     },
     body: JSON.stringify(updateData),
   }).then(() => {
-    getPosts(); // Refresh the posts after update
+    getPosts();
   });
 }
-
 
 function deletePost(postId) {
   fetch(`${URL}/${postId}`, {
     method: "DELETE",
   })
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(() => {
-    getPosts(); // Refresh the posts after deletion
-  })
-  .catch((error) => {
-    console.error('Error deleting post:', error);
-  });
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to delete post");
+      }
+      return response.json();
+    })
+    .then(() => {
+      const postElement = document.getElementById(`post-${postId}`);
+      if (postElement) {
+        postElement.remove();
+      }
+    })
+    .catch((error) => {
+      console.error("Error deleting post:", error);
+    });
 }

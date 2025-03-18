@@ -28,7 +28,7 @@ function prefillForm(postData) {
 fetchPostData(postId);
 
 // When a user submits the form, validate the form data
-document.querySelector("form").addEventListener("submit", updatePost);
+document.getElementById("update-form").addEventListener("submit", updatePost);
 
 function updatePost(event) {
   event.preventDefault();
@@ -102,7 +102,3 @@ function showError(message) {
 document.getElementById("back-to-home").addEventListener("click", () => {
   window.location.href = "./index.html";
 });
-
-
-
-/*ERROR: The updatePostData function is showing success message, but not updating the post on the main page.*/
