@@ -34,12 +34,42 @@ function createPostData(post) {
     .then((response) => response.json())
     .then((data) => {
       console.log("Post created:", data);
-      // Optionally, redirect after success:
-      // window.location.href = "index.html";
+      showSuccessMessage("Post created successfully!");
+      clearForm();
     })
-    .catch((error) => console.error("Error creating post:", error));
+    .catch((error) => {
+      console.error("Error creating post:", error);
+      showErrorMessage("Failed to create post. Please try again.");
+    });
 }
 
-// If form data is valid, make an API request to create the post (POST request)
-// Once succesccful response is recieved, show a success message on the screen
-// Clear the form
+function showSuccessMessage(message) {
+  const successMessageElement = document.getElementById("success-message");
+  successMessageElement.textContent = message;
+  successMessageElement.style.display = "block";
+
+  setTimeout(() => {
+    successMessageElement.style.display = "none";
+  }, 3000);
+}
+
+function showErrorMessage(message) {
+  const errorMessageElement = document.getElementById("error-message");
+  errorMessageElement.textContent = message;
+  errorMessageElement.style.display = "block";
+
+  setTimeout(() => {
+    errorMessageElement.style.display = "none";
+  }, 3000);
+}
+
+function clearForm() {
+  document.getElementById("create-post-form").reset();
+}
+document
+  .getElementById("clear-form-button")
+  .addEventListener("click", clearForm);
+
+document.getElementById("back-to-home").addEventListener("click", () => {
+  window.location.href = "./index.html";
+});

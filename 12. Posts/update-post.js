@@ -70,7 +70,7 @@ async function updatePostData(postId, post) {
   } catch (error) {
     console.error("Error updating post:", error);
     // Handle error (e.g., display error message)
-    showError("Error updating post. Please try again.");
+    showErrorMessage("Error updating post. Please try again.");
   }
 }
 
@@ -87,7 +87,7 @@ function showSuccessMessage(message) {
 }
 
 // Show an error message on the screen
-function showError(message) {
+function showErrorMessage(message) {
   const errorMessageElement = document.getElementById("error-message");
   errorMessageElement.textContent = message;
   errorMessageElement.style.display = "block"; // Show the message
