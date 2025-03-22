@@ -14,6 +14,7 @@ A simple to-do list application that allows users to add, remove, and mark tasks
 - Saves tasks in local storage
 
 *Here is the To-Do List project result.*
+
 <img src="https://github.com/user-attachments/assets/6924b6df-928c-4320-adb8-8515cf5053a7" alt="todo-list" width="500" height="300">
 
 
