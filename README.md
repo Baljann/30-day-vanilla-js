@@ -138,6 +138,7 @@ The Posts project is a simple blog-like application that allows users to create,
 - **Success and Error Messages**: Users receive feedback messages for successful and failed operations.
 
 *Here is the Posts project result.*
+
 <img src="https://github.com/user-attachments/assets/cf7f5028-1778-4ca7-a310-3bbb376d4c72" width="400" />
 
 ### 13. Fun with HTML5 Canvas
