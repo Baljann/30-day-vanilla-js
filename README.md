@@ -138,7 +138,7 @@ The Posts project is a simple blog-like application that allows users to create,
 - **Success and Error Messages**: Users receive feedback messages for successful and failed operations.
 
 *Here is the Posts project result.*
-<img src="https://github.com/user-attachments/assets/cf7f5028-1778-4ca7-a310-3bbb376d4c72)" width="400" />
+<img src="https://github.com/user-attachments/assets/cf7f5028-1778-4ca7-a310-3bbb376d4c72" width="400" />
 
 ### 13. Fun with HTML5 Canvas
 The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to create interactive drawings.
@@ -150,7 +150,7 @@ The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to cr
 
 *Here is the Fun with HTML5 Canvas project result.*
 
-<img src="(https://github.com/user-attachments/assets/7e628fb0-f739-4420-94b0-db60370f54bf)" width="400" />
+<img src="https://github.com/user-attachments/assets/7e628fb0-f739-4420-94b0-db60370f54bf" width="400" />
 
 
 
