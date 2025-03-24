@@ -165,7 +165,7 @@ The Dev Tools Domination project demonstrates various console methods and tricks
 - **Grouping Logs**: Grouping related logs together.
 - **Counting and Timing**: Counting occurrences and measuring operation time.
 
-*Here is the Fun with HTML5 Canvas project result.*
+*Here is Dev Tools Domination project result.*
 
 <img src="https://github.com/user-attachments/assets/475a94e2-6df4-4391-99a2-7c6a3cc91f76" width="400" />
 
