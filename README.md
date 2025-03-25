@@ -154,6 +154,21 @@ The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to cr
 <img src="https://github.com/user-attachments/assets/7e628fb0-f739-4420-94b0-db60370f54bf" width="400" />
 
 
+### 14. Dev Tools Domination
+The Dev Tools Domination project demonstrates various console methods and tricks to enhance debugging and logging in JavaScript.
+
+#### Features:
+- **Console Logging**: Different types of console logs including regular, interpolated, and styled logs.
+- **Warnings and Errors**: Logging warnings and errors.
+- **Info and Assertions**: Logging informational messages and assertions.
+- **DOM Elements**: Viewing and inspecting DOM elements.
+- **Grouping Logs**: Grouping related logs together.
+- **Counting and Timing**: Counting occurrences and measuring operation time.
+
+*Here is Dev Tools Domination project result.*
+
+<img src="https://github.com/user-attachments/assets/475a94e2-6df4-4391-99a2-7c6a3cc91f76" width="400" />
+
 
 ## Installation & Usage
 1. Clone the repository:
