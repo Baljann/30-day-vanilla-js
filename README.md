@@ -170,6 +170,19 @@ The Dev Tools Domination project demonstrates various console methods and tricks
 <img src="https://github.com/user-attachments/assets/475a94e2-6df4-4391-99a2-7c6a3cc91f76" width="400" />
 
 
+### 15. Hold Shift and Check Multiple Checkboxes
+This project demonstrates how to use JavaScript to enable users to select multiple checkboxes by holding down the Shift key. It is a simple and interactive feature that enhances user experience in checkbox-based interfaces.
+
+## Features
+- **Shift-Click Selection**: Allows users to select multiple checkboxes at once by holding down the Shift key.
+- **Interactive Design**: Provides visual feedback for selected checkboxes.
+- **Lightweight Implementation**: Built using plain JavaScript and CSS without any external libraries.
+
+*Here is Hold Shift and Check Multiple Checkboxes project result.*
+
+<img src="https://github.com/user-attachments/assets/ee243192-3233-4927-a047-890698ce22af" width="400" />
+
+
 ## Installation & Usage
 1. Clone the repository:
    ```sh
