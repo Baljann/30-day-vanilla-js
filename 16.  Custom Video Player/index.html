@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>HTML Video Player</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="https://fav.farm/🔥" />
   </head>
   <body>
-    <div class="player">
-      <video class="player__video viewer" src="652333414.mp4"></video>
+    <div class="player"> <!-- selector -->
+      <video class="player__video viewer" src="652333414.mp4"></video> <!-- selector -->
 
       <div class="player__controls">
-        <div class="progress">
-          <div class="progress__filled"></div>
+        <div class="progress">  <!-- selector -->
+          <div class="progress__filled"></div> <!-- selector -->
         </div>
-        <button class="player__button toggle" title="Toggle Play">►</button>
+        <button class="player__button toggle" title="Toggle Play">►</button> <!-- selector -->
         <input
           type="range"
           name="volume"
@@ -23,7 +25,7 @@
           max="1"
           step="0.05"
           value="1"
-        />
+        /> <!-- selector -->
         <input
           type="range"
           name="playbackRate"
@@ -32,8 +34,8 @@
           max="2"
           step="0.1"
           value="1"
-        />
-        <button data-skip="-10" class="player__button">« 10s</button>
+        /> <!-- selector -->
+        <button data-skip="-10" class="player__button">« 10s</button><!-- selector -->
         <button data-skip="25" class="player__button">25s »</button>
       </div>
     </div>
