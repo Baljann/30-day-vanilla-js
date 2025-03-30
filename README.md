@@ -183,6 +183,34 @@ This project demonstrates how to use JavaScript to enable users to select multip
 <img src="https://github.com/user-attachments/assets/ee243192-3233-4927-a047-890698ce22af" width="400" />
 
 
+## 16. Custom Video Player
+The Custom Video Player project demonstrates how to build a fully functional video player using HTML, CSS, and JavaScript. It provides a custom interface for controlling video playback, volume, and playback speed.
+
+#### Features:
+- **Play/Pause Toggle**: Allows users to play or pause the video with a button or by clicking on the video.
+- **Volume Control**: Adjust the video volume using a slider.
+- **Playback Speed Control**: Change the playback speed using a slider.
+- **Skip Buttons**: Skip forward or backward by a specified number of seconds.
+- **Progress Bar**: Displays the current playback progress and allows users to scrub through the video.
+
+*Here is the Custom Video Player project result.*
+
+<img src="https://github.com/user-attachments/assets/8b728ac3-5d94-477e-b852-3f660c8e0014" width="400" />
+
+
+## 17. Key Sequence Detection
+
+The Key Sequence Detection project showcases how to detect specific key sequences entered by the user on their keyboard. This project is built using HTML and JavaScript and demonstrates event handling for keyboard inputs. It is a fun way to learn about event listeners and working with arrays in JavaScript.
+
+#### Features:
+- **Key Sequence Detection**: Detects a predefined sequence of keys entered by the user.
+- **Fun Easter Egg**: Triggers a surprise effect (using `cornify.js`) when the correct sequence is entered.
+
+*Here is the Key Sequence Detection project result.*
+
+<img src="https://github.com/user-attachments/assets/6a1ec6f5-b171-44fc-a7a0-cc42b32bdb15" width="400" />
+
+
 ## Installation & Usage
 1. Clone the repository:
    ```sh
