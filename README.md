@@ -210,6 +210,19 @@ The Key Sequence Detection project showcases how to detect specific key sequence
 
 <img src="https://github.com/user-attachments/assets/6a1ec6f5-b171-44fc-a7a0-cc42b32bdb15" width="400" />
 
+## 18. Slide in on Scroll
+
+The Slide in on Scroll project demonstrates how to create an engaging scrolling effect where images or elements slide into view as the user scrolls down the page. This project uses JavaScript for scroll detection and CSS for smooth transitions.
+
+#### Features:
+- **Scroll Detection**: Images slide into view when they are halfway visible in the viewport.
+- **Smooth Transitions**: CSS transitions create a visually appealing sliding effect.
+- **Responsive Design**: Works seamlessly on different screen sizes.
+
+*Here is the Slide in on Scroll project result.*
+
+<img src="https://github.com/user-attachments/assets/c4a82744-2c6b-4ed5-b099-5d9d6b73c15a" width="400" />
+
 
 ## Installation & Usage
 1. Clone the repository:
