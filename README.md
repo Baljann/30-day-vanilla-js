@@ -117,20 +117,7 @@ The Array Cardio Day 2 project demonstrates the use of various array methods in 
 
 <img src="https://github.com/user-attachments/assets/5f96d693-3287-46db-b4f6-60774d44aea1" width="400" />
 
-## 12. Posts
-The Posts project is a simple blog-like application that allows users to create, edit, and delete posts. It uses JavaScript for dynamic content manipulation and local storage to save posts.
 
-#### Features:
-- **Fetch Posts**: Users can fetch and display posts from an external API.
-- **Create Posts**: Users can create new posts with a title and content.
-- **Edit Posts**: Users can edit existing posts.
-- **Delete Posts**: Users can delete posts they no longer need.
-- **Local Storage**: Posts are saved in local storage, so they persist even after the page is refreshed.
-- **Success and Error Messages**: Users receive feedback messages for successful and failed operations.
-
-*Here is the Posts project result.*
-
-<img src="https://github.com/user-attachments/assets/cf7f5028-1778-4ca7-a310-3bbb376d4c72" width="400" />
 
 ## 13. Fun with HTML5 Canvas
 The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to create interactive drawings.
