@@ -5,7 +5,7 @@ This repository contains various JavaScript projects that I am building as part 
 ## Projects
 
 
-## 2. Drum Kit
+## 1. Drum Kit
 An interactive drum kit that allows users to play drum sounds by clicking buttons or pressing corresponding keyboard keys.
 
 #### Features:
@@ -17,7 +17,7 @@ An interactive drum kit that allows users to play drum sounds by clicking button
 
 <img src="https://github.com/user-attachments/assets/0f95db82-664d-4529-956b-80d424be946e" width="400" />
 
-## 3. JS and CSS Clock
+## 2. JS and CSS Clock
 This project is a simple clock created using JavaScript and CSS. It displays the current time with hour, minute, and second hands, similar to an analog clock.
 
 #### Features:
@@ -31,7 +31,7 @@ This project is a simple clock created using JavaScript and CSS. It displays the
 
 
 
-## 5. CSS Variables and JavaScript
+## 3. CSS Variables
 This project demonstrates how to manipulate CSS variables using JavaScript.
 
 #### Features
@@ -43,7 +43,7 @@ This project demonstrates how to manipulate CSS variables using JavaScript.
 
 <img src="https://github.com/user-attachments/assets/79d248b3-dfe5-40f0-a92c-b68344b3fcc7" width="400" />
 
-## 6. Array Cardio Day 1
+## 4. Array Cardio Day 1
 This project is a JavaScript exercise that demonstrates various array methods such as `filter`, `map`, `sort`, and `reduce`. The exercises are designed to help you practice and understand how to manipulate arrays in JavaScript.
 *Here is the console view of the exercise.*
 
@@ -51,7 +51,7 @@ This project is a JavaScript exercise that demonstrates various array methods su
 
 
 
-## 8. Flex Panel Gallery
+## 5. Flex Panel Gallery
 The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an interactive gallery with expanding panels. Each panel expands when clicked, revealing additional content.
 
 #### Features:
@@ -65,7 +65,7 @@ The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an 
 
 
 
-## 10. Type Ahead
+## 6. Type Ahead
 The Type Ahead project is an autocomplete search tool that provides suggestions as you type. It uses JavaScript to filter and display matching results from a dataset.
 
 #### Features:
@@ -77,7 +77,7 @@ The Type Ahead project is an autocomplete search tool that provides suggestions 
 
 <img src="https://github.com/user-attachments/assets/dcd46bd5-529d-434d-a723-b1103cd917dc" width="400" />
 
-## 11. Array Cardio Day 2
+## 7. Array Cardio Day 2
 The Array Cardio Day 2 project demonstrates the use of various array methods in JavaScript, such as `some()`, `every()`, `find()`, and `findIndex()`. These methods are used to perform different operations on arrays of objects.
 
 *Here is the console view of the exercise.*
@@ -86,7 +86,7 @@ The Array Cardio Day 2 project demonstrates the use of various array methods in 
 
 
 
-## 13. Fun with HTML5 Canvas
+## 8. Fun with HTML5 Canvas
 The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to create interactive drawings.
 
 #### Features:
@@ -99,7 +99,7 @@ The Fun with HTML5 Canvas project demonstrates the use of the HTML5 Canvas to cr
 <img src="https://github.com/user-attachments/assets/7e628fb0-f739-4420-94b0-db60370f54bf" width="400" />
 
 
-## 14. Dev Tools Domination
+## 9. Dev Tools Domination
 The Dev Tools Domination project demonstrates various console methods and tricks to enhance debugging and logging in JavaScript.
 
 #### Features:
@@ -115,7 +115,7 @@ The Dev Tools Domination project demonstrates various console methods and tricks
 <img src="https://github.com/user-attachments/assets/475a94e2-6df4-4391-99a2-7c6a3cc91f76" width="400" />
 
 
-## 15. Hold Shift and Check Multiple Checkboxes
+## 10. Hold Shift and Check Multiple Checkboxes
 This project demonstrates how to use JavaScript to enable users to select multiple checkboxes by holding down the Shift key. It is a simple and interactive feature that enhances user experience in checkbox-based interfaces.
 
 #### Features:
@@ -128,7 +128,7 @@ This project demonstrates how to use JavaScript to enable users to select multip
 <img src="https://github.com/user-attachments/assets/ee243192-3233-4927-a047-890698ce22af" width="400" />
 
 
-## 16. Custom Video Player
+## 11. Custom Video Player
 The Custom Video Player project demonstrates how to build a fully functional video player using HTML, CSS, and JavaScript. It provides a custom interface for controlling video playback, volume, and playback speed.
 
 #### Features:
@@ -143,7 +143,7 @@ The Custom Video Player project demonstrates how to build a fully functional vid
 <img src="https://github.com/user-attachments/assets/8b728ac3-5d94-477e-b852-3f660c8e0014" width="400" />
 
 
-## 17. Key Sequence Detection
+## 12. Key Sequence Detection
 
 The Key Sequence Detection project showcases how to detect specific key sequences entered by the user on their keyboard. This project is built using HTML and JavaScript and demonstrates event handling for keyboard inputs. It is a fun way to learn about event listeners and working with arrays in JavaScript.
 
@@ -155,7 +155,7 @@ The Key Sequence Detection project showcases how to detect specific key sequence
 
 <img src="https://github.com/user-attachments/assets/6a1ec6f5-b171-44fc-a7a0-cc42b32bdb15" width="400" />
 
-## 18. Slide in on Scroll
+## 13. Slide in on Scroll
 
 The Slide in on Scroll project demonstrates how to create an engaging scrolling effect where images or elements slide into view as the user scrolls down the page. This project uses JavaScript for scroll detection and CSS for smooth transitions.
 
