@@ -4,19 +4,6 @@ This repository contains various JavaScript projects that I am building as part 
 
 ## Projects
 
-## 1. To-Do List
-A simple to-do list application that allows users to add, remove, and mark tasks as completed.
-
-#### Features:
-- Add new tasks
-- Mark tasks as completed
-- Remove tasks
-- Saves tasks in local storage
-
-*Here is the To-Do List project result.* 
-
-<img src="https://github.com/user-attachments/assets/6924b6df-928c-4320-adb8-8515cf5053a7" width="400" />
-
 
 ## 2. Drum Kit
 An interactive drum kit that allows users to play drum sounds by clicking buttons or pressing corresponding keyboard keys.
@@ -62,17 +49,7 @@ This project is a JavaScript exercise that demonstrates various array methods su
 
 <img src="https://github.com/user-attachments/assets/97a71b0c-41a4-4b6e-9ea3-8bc699534bcc" width="400" />
 
-## 7. Timer
-A simple timer application that allows users to start, pause, and reset a counter.
 
-#### Features:
-- **Start Timer**: Begins counting up from 0, updating every second.
-- **Pause Timer**: Pauses the current count, allowing it to be resumed later.
-- **Reset Timer**: Resets the counter back to 0 and stops the timer.
-
-*Here is the Timer project result.*
-
-<img src="https://github.com/user-attachments/assets/a0ad83ed-18bb-4432-85a2-f1a6886b09c2" width="400" />
 
 ## 8. Flex Panel Gallery
 The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an interactive gallery with expanding panels. Each panel expands when clicked, revealing additional content.
@@ -86,17 +63,7 @@ The Flex Panel Gallery project demonstrates the use of CSS Flexbox to create an 
 
 <img src="https://github.com/user-attachments/assets/e396cc45-85ac-4bbe-bc13-982dcd8a2413" width="400" />
 
-## 9. Currency Rate
-The Currency Rate project fetches and displays the current exchange rates for USD and EUR against RUB. It uses the Fetch API to get data from an external API and updates the DOM with the latest rates.
 
-#### Features:
-- **Fetch API**: Retrieves exchange rates from an external API.
-- **Real-Time Updates**: Displays the latest exchange rates for USD and EUR.
-- **Responsive Design**: Ensures a good user experience on both desktop and mobile devices.
-
-*Here is the Currency Rate project result.*
-
-<img src="https://github.com/user-attachments/assets/582d102b-e9d5-43f3-9c35-82d9fe6eb561" width="400" />
 
 ## 10. Type Ahead
 The Type Ahead project is an autocomplete search tool that provides suggestions as you type. It uses JavaScript to filter and display matching results from a dataset.
